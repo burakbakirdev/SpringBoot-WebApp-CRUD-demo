@@ -1,0 +1,62 @@
+html{
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: #4c9599;
+}
+
+input, select {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 16px;
+}
+
+table,tr, td, th{
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+table{
+	width: 100%;
+	margin: 0 auto;
+}
+
+th,td{
+	padding: 2px;
+}
+
+thead tr{
+	background-color: darkgreen;
+	color: white;
+	text-align: center;
+}
+
+tbody tr{
+	text-align: center;
+}
+
+tbody tr:nth-child(even){
+	background-color: seashell;
+}
+
+tbody tr:hover{
+	background: #ddd;
+}
+
+.bordered td{
+	border: 1px solid #000000;	
+}
+
+.error{
+	color: #ff0000;
+}
+
+.box {
+	border: 1px solid #000000;
+}
+
+.small-italic{
+	font-size: 16px;
+	font-style: italic;
+}
